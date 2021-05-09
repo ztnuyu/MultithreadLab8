@@ -6,15 +6,19 @@ public class MultithreadArrayOverload {
 	public static void main(String[] args) {
 		
 		Runnable arrayS = new ArraySleep();
-		Thread Word1 = new Thread(arrayS);
-		Word1.setName("arraySleepThread");
+		Runnable arrayS2 = new ArraySleep();
+		Runnable arrayS3 = new ArraySleep();
+		Thread thrd1 = new Thread(arrayS);
+		Thread thrd2 = new Thread(arrayS2);
+		Thread thrd3 = new Thread(arrayS3);
 		
-		Thread arrT = new ArrayThread();
-		arrT.setName("arrayThread");
 		
-		Word1.start();
-		arrT.start();
-
+		thrd1.setName("text");
+		thrd2.setName("word1");
+		thrd3.setName("word2");
+		
+		thrd3.start();
+		thrd1.start();
+		thrd2.start();
 	}
-
 }
