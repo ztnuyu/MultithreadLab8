@@ -17,4 +17,6 @@
 
 ## Exercise 3 - Output
 
-<img width="436" alt="lab8e3" src="https://user-images.githubusercontent.com/73053555/117525138-7e8cc300-aff3-11eb-9264-1e07848cb2c6.PNG">
+![image](https://user-images.githubusercontent.com/73053555/117561062-00e5b780-b0c6-11eb-9b64-5289197e2c90.png)
+
+# Github link: https://github.com/ztnuyu/MultithreadLab8/tree/master/Multithread/src/exercise3
